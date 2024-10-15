@@ -1,5 +1,5 @@
 # HALLM
-Detecting Hallucination in ALMs
+Detecting Hallucination in ALMs (Name is temporary)
 
 Group #34 Project for 11-785 : Intro to Deep Learning at CMU
 
