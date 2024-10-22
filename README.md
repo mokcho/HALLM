@@ -5,8 +5,23 @@ Group #34 Project for 11-785 : Intro to Deep Learning at CMU
 
 --------
 
-# Data Preprocessing
+# Data Download & Process
 
+## AudioCaps
+
+This downloads annotations of AudioCaps and corresponding audio files fron Youtube, trims and saves in 44.1khz wav file to ./data/AudioCaps
+
+```
+./data/prepare/AudioCaps.sh
+```
+
+## Clotho
+
+This downloads and unzips audio files, caption files, metadata of Clotho to ./data/Clotho
+
+```
+./data/prepare/Clotho.sh
+```
 --------
 
 ## to-do's
