@@ -11,6 +11,7 @@ Group #34 Project for 11-785 : Intro to Deep Learning at CMU
 
 ## to-do's
 - [ ] Data Preprocessing
+  - [X] AudioCaps 
 - [ ] Baseline Model Reconstruction
   - [ ] MS CLAP '23
   - [ ] Pengi-Enc
