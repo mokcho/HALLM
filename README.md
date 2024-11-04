@@ -22,6 +22,32 @@ This downloads and unzips audio files, caption files, metadata of [Clotho](https
 ```
 ./data/prepare/Clotho.sh
 ```
+## AudioCaps Entailment and Clotho Entailment
+
+download and move gpt4 generated entailment .csv under data/AudioCaps/entailment and data/Clotho/entailment.
+```
+python ./data/prepare/process.py --data clotho --data_dir ./data
+```
+
+# Classifier Training
+
+## Pengi-enc
+
+1. Clone pengi from [microsoft/Pengi](https://github.com/microsoft/Pengi)
+```
+cd ./models
+git clone https://github.com/microsoft/Pengi.git
+```
+follow Pengi's readme to obtain checkpoint of model
+
+2. Train with main.py
+```
+# set your own model_cfg in ./configs for trainings
+python main.py --model pengi --model_cfg ./configs/pengi_linear_classifier.yaml --classifier linear --data_dir ./data
+```
+
+
+
 --------
 
 ## to-do's
@@ -30,7 +56,7 @@ This downloads and unzips audio files, caption files, metadata of [Clotho](https
   - [X] Clotho, Jinju Kim
 - [ ] Baseline Model Reconstruction
   - [ ] MS CLAP '23
-  - [ ] Pengi-Enc
+  - [X] Pengi-Enc, Jinju Kim
   - [ ] LAION CLAP
   - [ ] MS CLAP '22
 
