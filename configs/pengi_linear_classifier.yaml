@@ -1,0 +1,9 @@
+data_dir : "./data"
+epochs :  10
+lr : 1e-4
+batch_size : 32
+num_workers : 0
+resume : False
+resume_ckpt : None
+pengi :
+  config : "base"
