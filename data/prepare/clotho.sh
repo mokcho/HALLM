@@ -27,7 +27,7 @@ wget -O "$CAPTION_DIR/dev.csv" "$DEV_CAP_URL"
 wget -O "$CAPTION_DIR/val.csv" "$VAL_CAP_URL"
 wget -O "$TARGET_DIR/clotho_audio_development.7z" "$DEV_URL"
 wget -O "$TARGET_DIR/clotho_audio_evaluation.7z" "$EVAL_URL"
-wget -O "$TARGET_DIR/clotho_audio_validation.7z" "$VAL_URL
+wget -O "$TARGET_DIR/clotho_audio_validation.7z" "$VAL_URL"
 
 # Inform the user
 if [ $? -eq 0 ]; then
