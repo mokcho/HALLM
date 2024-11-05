@@ -1,9 +1,9 @@
-data_dir : "./data"
+data_dir : "/home/nas3/user/thk/HALLM/data/data"
 epochs :  10
 lr : 1e-4
 batch_size : 32
 num_workers : 0
 resume : False
 resume_ckpt : None
-pengi :
-  config : "base"
+CLAP :
+  config : "2023"

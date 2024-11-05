@@ -1,0 +1,70 @@
+# directory
+/data/data/
+/data/AudioCaps/
+/data/checkpoints/
+/data/Clotho/
+/tmp/
+
+
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.env
+.venv
+ENV/
+venv/
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.swp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS specific files
+.DS_Store
+
+# Log files
+*.log
+
+# Test results
+.coverage
+*.cover
+
+# MyPy
+.mypy_cache/
+
+# Pyre
+.pyre/
+
+# Pytest cache
+.pytest_cache/
+
+# SQLite database
+*.sqlite3
+
+# Other
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# files
+*.log
+*.tmp
+*.DS_Store
